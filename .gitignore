@@ -1,0 +1,14 @@
+.DS_Store
+log
+*~
+.#*
+.hgignore
+.hg/*
+.svn/*
+
+node_modules
+pids
+logs
+docs
+pages
+

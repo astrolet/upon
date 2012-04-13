@@ -1,0 +1,33 @@
+{ "name": "upon"
+, "description": "a"
+, "keywords": [ "astrology", "location", "physics", "astronomy", "coordinates" ]
+, "version": "0.0.1-0"
+, "homepage": "http://astrolin.com/to/upon"
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/astrolet/upon.git"
+  }
+, "bugs":
+  { "mail": "support@astrolet.net"
+  , "url" : "https://www.pivotaltracker.com/projects/265847"
+  }
+, "author": "Orlin M Bozhinov <orlin@astrolet.net> (http://soundsapiens.com)"
+, "contributors": []
+, "directories": { "lib": "./lib" }
+, "main": "index"
+, "dependencies":
+  { "underscore": "1.x" }
+, "devDependencies":
+  { "coffee-script": "*"
+  , "should": "*"
+  , "mocha": "*"
+  }
+, "scripts": {}
+, "os" : [ "aix", "freebsd", "linux", "macos", "solaris" ]
+, "engines" : { "node" : "0.6.x", "npm": "1.1.x" }
+, "licenses":
+  [ { "type": "Unlicense"
+    , "url" : "http://unlicense.org/"
+    }
+  ]
+}
