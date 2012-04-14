@@ -7,8 +7,8 @@
     any time from
     down the earth
 
-    there is say
-    a now here
+    there's say
+    a now-here
 
     that has been
     or will be up
