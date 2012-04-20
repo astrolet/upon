@@ -10,7 +10,8 @@ test = "#{__dirname}/test"
 inspect = require('eyes').inspector
   stream: null
   pretty: false
-  styles: {all: 'magenta'}
+  styles:
+    all: 'magenta'
 {series, parallel} = require 'async'
 
 
@@ -46,12 +47,13 @@ command = (c, cb) ->
 
 
 # First-time setup.
-task 'install', "Run once: npm, bundle, etc.", ->
+task 'install', "Run once: npm, bundle, pygments, etc.", ->
   pleaseWait()
   command "
     npm install
      && gem install bundler
      && bundle install
+     && easy_install Pygments
     "
 
 
