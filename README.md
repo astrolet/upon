@@ -1,3 +1,4 @@
+# [![Build Status](https://secure.travis-ci.org/astrolet/upon.png)](http://travis-ci.org/astrolet/upon)
 # upon -- a place in space or time
 
 
