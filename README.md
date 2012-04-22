@@ -2,7 +2,7 @@
 # upon -- varied reference frame
 
 
-## DESCRIPTION
+## SYNOPSIS
 
     once upon at
     any time from
