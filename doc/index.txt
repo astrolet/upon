@@ -5,4 +5,4 @@ ut(3)               annotations/ut
 
 # external manuals
 Index(7)            http://astrolet.github.com/upon
-Home(7)             http://astrolin.com/to/upon
+Base(7)             http://astrolin.com/to/upon

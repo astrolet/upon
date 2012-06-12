@@ -2,7 +2,7 @@
 # upon -- varied reference frame
 
 
-## DESCRIPTION
+## WHAT
 
     once upon at
     any time from
@@ -16,28 +16,30 @@
     on to the sky
 
 
-## EXAMPLES
-
-See `test` for specs / example use of:
-
-* degrees(3)
-* coordinates(3)
-* ut(3)
-
-
-## INSTALL
+## SETUP
 
 With the [npm](http://npmjs.org/) prerequisite, do:
 
     npm install upon
 
 
-## LICENSE
+## USE
+
+See `test/*` for example use of:
+
+* degrees(3)
+* coordinates(3)
+* ut(3)
+
+Run tests with `cake test`.
+
+
+## LAW
 
 This is free and unencumbered public domain software. For more information,
 see <http://unlicense.org/> or the accompanying [UNLICENSE](http://astrolet.github.com/lin/UNLICENSE.html) file.
 
 
-## NAVIGATE
+## HOME
 
-Home(7)
+Base(7)
