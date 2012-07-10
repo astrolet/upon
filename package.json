@@ -1,7 +1,7 @@
 { "name": "upon"
 , "description": "varied reference frame"
 , "keywords": [ "astrology", "location", "physics", "astronomy", "coordinates" ]
-, "version": "0.0.1-2"
+, "version": "0.0.2"
 , "homepage": "http://astrolin.com/to/upon"
 , "repository":
   { "type": "git"
@@ -29,7 +29,7 @@
   }
 , "scripts": { "test": "cake -s test" }
 , "os" : [ "aix", "freebsd", "linux", "macos", "solaris" ]
-, "engines" : { "node" : "0.6.x", "npm": "1.1.x" }
+, "engines" : { "node" : "0.8.x", "npm": "1.1.x" }
 , "licenses":
   [ { "type": "Unlicense"
     , "url" : "http://unlicense.org/"
