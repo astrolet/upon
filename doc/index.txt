@@ -2,6 +2,7 @@
 degrees(3)          annotations/degrees
 coordinates(3)      annotations/coordinates
 ut(3)               annotations/ut
+polyglot(3)         annotations/polyglot
 
 # external manuals
 Index(7)            http://astrolet.github.com/upon

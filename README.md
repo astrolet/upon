@@ -30,6 +30,7 @@ See `test/*` for example use of:
 * degrees(3)
 * coordinates(3)
 * ut(3)
+* polyglot(3)
 
 Run tests with `cake test`.
 
