@@ -1,7 +1,11 @@
 _ = require "underscore"
 
 # Use this as a mixin for classes that have words to name / translate.
-# See _./itemerge.coffee_ as an example of what the nested @words hash is like.
+# See [lin](http://astrolet.github.com/lin/)'s `Ensemble`
+# as an example of what the `@words` object must be like.
+# For a more varied example of words / localization data, see
+# [there](http://astrolet.github.com/there/)'s
+# [care](http://astrolet.github.com/there/annotations/care.html).
 
 # Suppose an attribute of "name" - quite usual, often the only (necessary).
 # Thus expect that `@words.expect is ['name']`, while the actual words data
@@ -16,9 +20,11 @@ _ = require "underscore"
 # A value of false means it's deemed unfit for Hellenistic Astrology.
 
 # In order to be `@translatable` a collection needs to have its initial data
-# in one or more hashes - look at ./itemerge.coffee and how `@planets.the`
-# and `@planets.attributes.use` are expected in addition to `@words`.
-# There can be more than one initialization hashes, but a single `@words`
+# set up.  Look at [lin](http://astrolet.github.com/lin)'s
+# [Ensemble](http://astrolet.github.com/lin/annotations/ensemble.html)
+# - more pecifically how `@planets.the` and `@planets.attributes.use`
+# are expected in addition to `@words`.
+# There can be more than one initialization objects, but a single `@words`
 # data set for translation - basically the collection as a whole.
 
 # Example usage within the `constructor` / `initialize`:
