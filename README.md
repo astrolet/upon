@@ -4,16 +4,16 @@
 
 ## WHAT
 
-    once upon at
-    any time from
-    down the earth
+>     once upon at
+>     any time from
+>     down the earth
+>
+>     there's say
+>     a now-here
 
-    there's say
-    a now-here
-
-    that has been
-    or will be up
-    on to the sky
+>     that has been
+>     or will be up
+>     on to the sky
 
 
 ## SETUP
