@@ -1,0 +1,2 @@
+Home = require("../../index").Home
+

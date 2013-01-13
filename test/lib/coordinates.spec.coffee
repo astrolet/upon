@@ -1,4 +1,4 @@
-coordinates = require "../../lib/coordinates"
+coordinates = require("../../index").coordinates
 
 describe "CelestialCoordinates", ->
 

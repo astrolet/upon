@@ -1,4 +1,4 @@
-degrees = require "../../lib/degrees"
+degrees = require("../../index").degrees
 
 describe 'call degrees:', ->
 
