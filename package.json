@@ -16,13 +16,13 @@
 , "directories": { "lib": "./lib" }
 , "main": "index"
 , "dependencies":
-  { "underscore": "*"
+  { "coffee-script": "*"
+  , "underscore": "*"
   , "underscore.string": "*"
   , "geoutils": "*"
   }
 , "devDependencies":
-  { "coffee-script": "*"
-  , "jsonify": "*"
+  { "jsonify": "*"
   , "police": "*"
   , "should": "*"
   , "mocha": "*"
