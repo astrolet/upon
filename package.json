@@ -1,7 +1,7 @@
 { "name": "upon"
 , "description": "varied reference frame"
 , "keywords": [ "astrology", "perspective", "location", "space", "time", "physics", "astronomy", "coordinates" ]
-, "version": "0.0.3"
+, "version": "0.1.0"
 , "homepage": "http://astrolin.com/to/upon"
 , "repository":
   { "type": "git"
