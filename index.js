@@ -1,6 +1,7 @@
 // Exports
 [ 'degrees'
 , 'coordinates'
+, 'Home'
 , 'ut'
 , 'polyglot'
 ].forEach(function(name) {

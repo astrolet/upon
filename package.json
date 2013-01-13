@@ -16,7 +16,10 @@
 , "directories": { "lib": "./lib" }
 , "main": "index"
 , "dependencies":
-  { "underscore": "1.x" }
+  { "underscore": "*"
+  , "underscore.string": "*"
+  , "geoutils": "*"
+  }
 , "devDependencies":
   { "coffee-script": "*"
   , "jsonify": "*"
@@ -26,6 +29,7 @@
   , "async": "*"
   , "docco": "*"
   , "eyes": "*"
+  , "vows": "0.6.x"
   }
 , "scripts": { "test": "cake -s test" }
 , "os" : [ "!win32" ]
