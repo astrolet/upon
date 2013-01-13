@@ -1,9 +1,6 @@
 # [![Build Status](https://secure.travis-ci.org/astrolet/upon.png)](http://travis-ci.org/astrolet/upon)
 # upon -- varied reference frame
 
-
-## WHAT
-
 >     once upon at
 >     any time from
 >     down the earth
