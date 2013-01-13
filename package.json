@@ -1,7 +1,7 @@
 { "name": "upon"
 , "description": "varied reference frame"
-, "keywords": [ "astrology", "location", "physics", "astronomy", "coordinates" ]
-, "version": "0.0.3"
+, "keywords": [ "astrology", "perspective", "location", "space", "time", "physics", "astronomy", "coordinates" ]
+, "version": "0.1.0"
 , "homepage": "http://astrolin.com/to/upon"
 , "repository":
   { "type": "git"
@@ -16,16 +16,20 @@
 , "directories": { "lib": "./lib" }
 , "main": "index"
 , "dependencies":
-  { "underscore": "1.x" }
-, "devDependencies":
   { "coffee-script": "*"
-  , "jsonify": "*"
+  , "underscore": "*"
+  , "underscore.string": "*"
+  , "geoutils": "*"
+  }
+, "devDependencies":
+  { "jsonify": "*"
   , "police": "*"
   , "should": "*"
   , "mocha": "*"
   , "async": "*"
   , "docco": "*"
   , "eyes": "*"
+  , "vows": "0.6.x"
   }
 , "scripts": { "test": "cake -s test" }
 , "os" : [ "!win32" ]
